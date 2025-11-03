@@ -961,3 +961,20 @@ After completing this course:
 **Ready to begin your journey?**
 
 Start with [Module 1: GPU Fundamentals →](lessons/01-gpu-fundamentals/README.md)
+
+---
+
+## Requirement-to-Module Mapping
+
+| Job Requirement | Curriculum Coverage |
+| --- | --- |
+| Optimize ML model inference latency and throughput | Module 004 - Transformer Optimization<br>Module 006 - Distributed Inference<br>Project 03 - Distributed Inference Pipeline<br>Project 03 - LLM Inference Optimization |
+| Implement model compression techniques (quantization, pruning, distillation) | Module 005 - Model Compression<br>Project 01 - Model Compression Lab |
+| Optimize GPU utilization and reduce inference costs | Module 001 - GPU Fundamentals<br>Module 006 - Distributed Inference<br>Module 007 - Production Deployment<br>Project 02 - GPU Optimization Toolkit |
+| Profile and optimize model training performance | Module 003 - Performance Profiling<br>Module 002 - CUDA Programming<br>Project 02 - GPU Optimization Toolkit |
+| Develop custom CUDA kernels for performance-critical operations | Module 002 - CUDA Programming<br>Project 02 - Custom CUDA Kernels |
+| Implement efficient batching and caching strategies | Module 006 - Distributed Inference<br>Module 007 - Production Deployment<br>Project 03 - LLM Inference Optimization |
+| Optimize memory usage for large model deployments | Module 004 - Transformer Optimization<br>Module 005 - Model Compression<br>Module 007 - Production Deployment |
+| Analyze cost-performance trade-offs for deployment options | Module 007 - Production Deployment<br>Module 008 - Advanced Topics<br>Project 03 - Distributed Inference Pipeline |
+| Implement mixed-precision training and inference | Module 001 - GPU Fundamentals<br>Module 004 - Transformer Optimization<br>Module 005 - Model Compression |
+| Tune hyperparameters for optimal performance | Module 005 - Model Compression<br>Project 01 - Model Optimization Suite |
