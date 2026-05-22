@@ -592,6 +592,11 @@ This curriculum was developed with input from:
 
 **Ready to become an AI/ML Performance Engineering expert?**
 
-Start with [Module 1: GPU Fundamentals →](lessons/01-gpu-fundamentals/README.md)
+Start with [Module 1: GPU Fundamentals →](modules/mod-001-gpu-fundamentals/README.md)
+*(Module 1 ships with 6 learning objectives, lecture notes, four
+autograded CPU-only exercises, and a 12-question quiz. Modules 2+
+are scheduled.)*
 
-or jump into [Project 1: Model Compression →](projects/project-01-model-optimization/README.md)
+> The longer-form curriculum spec (8 modules + 3 projects) lives in
+> [`CURRICULUM.md`](CURRICULUM.md). Modules will be promoted from
+> spec to implementation incrementally.
