@@ -60,7 +60,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Every check.py must FAIL on its unmodified starter
-        shell: bash
+        shell: bash {0}
         run: |
           set -uo pipefail
           shopt -s globstar nullglob
@@ -72,8 +72,8 @@ jobs:
           fails=0
           for check in "${checks[@]}"; do
             dir=$(dirname "$check")
-            ( cd "$dir" && python check.py >/dev/null 2>&1 )
-            rc=$?
+            rc=0
+            ( cd "$dir" && python check.py >/dev/null 2>&1 ) || rc=$?
             if [ "$rc" -eq 0 ]; then
               echo "::error file=$check::Autograder PASSED on unmodified starter; it must FAIL."
               fails=$((fails+1))
