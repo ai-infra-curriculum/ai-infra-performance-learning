@@ -1,0 +1,41 @@
+// markdownlint-cli2 config — lenient for long-form lecture content.
+// Rule reference: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+{
+  "default": true,
+
+  // Lecture notes and CURRICULUM.md commonly exceed 80 cols.
+  "MD013": false,
+
+  // Multiple top-level headings are fine in long lecture documents
+  // (e.g. quiz.md uses one H1 per question variant).
+  "MD025": false,
+
+  // Inline HTML is required for runner-research markers like
+  // <!-- needs-research: <topic> --> (GUARDRAIL #18).
+  "MD033": false,
+
+  // No first-line H1 requirement — quiz-answers.md leads with a banner.
+  "MD041": false,
+
+  // Allow trailing punctuation in headings (e.g. "What you should know:")
+  "MD026": false,
+
+  // Permit duplicated heading text across different sections
+  // ("Exercise 1", "Exercise 2" both have "## Goal").
+  "MD024": { "siblings_only": true },
+
+  // Don't require a language fence on every code block — some blocks are
+  // plain shell output, ASCII diagrams, or numeric tables.
+  "MD040": false,
+
+  // Don't enforce "compact" vs "padded" table pipe-spacing. Content is
+  // graded on substance, not pipe whitespace.
+  "MD060": false,
+
+  // Don't require blank lines surrounding every list. Prose-embedded
+  // lists are common in curriculum READMEs.
+  "MD032": false,
+
+  // Email addresses get flagged as "bare URLs" by this rule; disable.
+  "MD034": false
+}
