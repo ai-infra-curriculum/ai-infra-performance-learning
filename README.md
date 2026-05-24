@@ -288,7 +288,7 @@ Build a production-ready compression pipeline that applies quantization, pruning
 - TensorRT engine building
 - Automated benchmarking
 
-[📁 Project 1 Details →](projects/project-01-model-optimization/README.md)
+📁 Project 1 — _planned (project repo not yet scaffolded; see modules 03-05 for the underlying techniques)_
 
 ### Project 2: Custom CUDA Kernels for Transformer Optimization (60 hours)
 
@@ -311,7 +311,7 @@ Develop custom CUDA kernels to optimize critical transformer operations, achievi
 - Vectorized GELU
 - PyTorch integration
 
-[📁 Project 2 Details →](projects/project-02-gpu-optimization/README.md)
+📁 Project 2 — _planned (project repo not yet scaffolded; see module 08 for advanced GPU topics)_
 
 ### Project 3: High-Performance LLM Inference System (80 hours)
 
@@ -334,7 +334,7 @@ Build a production-grade LLM serving system capable of 1000+ requests/second wit
 - Streaming inference support
 - Prometheus monitoring
 
-[📁 Project 3 Details →](projects/project-03-distributed-inference/README.md)
+📁 Project 3 — _planned (project repo not yet scaffolded; see module 06 for distributed inference techniques)_
 
 ## Setup Instructions
 
@@ -402,10 +402,8 @@ pip install pybind11
 
 ### 5. Project-Specific Setup
 
-See individual project directories for detailed setup instructions:
-- [Project 1 Setup](projects/project-01-model-optimization/README.md#setup)
-- [Project 2 Setup](projects/project-02-gpu-optimization/README.md#setup)
-- [Project 3 Setup](projects/project-03-distributed-inference/README.md#setup)
+Per-project setup will live alongside each project once scaffolded.
+For now, follow the module-level setup instructions in [modules/](modules/) — each module is independently runnable.
 
 ## Learning Resources
 
