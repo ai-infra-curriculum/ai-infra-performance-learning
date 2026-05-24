@@ -1,13 +1,14 @@
 # Module 04 — Quiz Answers
 
-All `a`. Brief notes:
-1. FlashAttn's tiling means intermediate N×N is never materialized.
-2. Paged allocation eliminates external fragmentation in the KV cache.
-3. Speculative decoding requires shared tokenizer; family fine-tunes work.
-4. Continuous batching removes the head-of-line blocking of fixed batches.
-5. Prefix cache shines for chat / agents / RAG with shared system prompts.
-6. `reduce-overhead` enables CUDA graphs (low-overhead launch).
-7. KV cache memory formula; commit it to memory.
-8. Triton compiles Python-style kernels to PTX.
-9. Optimizations compound multiplicatively in practice (not perfectly).
-10. vLLM defaults are tuned by experts; start there, measure before going lower.
+| # | Answer | Rationale |
+|---|---|---|
+| 1 | **a** | FlashAttention tiles the attention computation so the intermediate N×N matrix never lives in HBM. Memory drops from O(N²) to O(N). |
+| 2 | **d** | Vanilla KV-cache allocation fragments memory; PagedAttention's fixed-page approach (analogous to virtual memory) eliminates that, increasing concurrent requests/GPU by 2-4×. |
+| 3 | **d** | Verification compares draft + target token distributions; that requires sharing a tokenizer. Same-family fine-tunes are the typical pairing. |
+| 4 | **d** | Continuous batching's distinguishing move is removing head-of-line blocking — finished requests drop, new ones join at every decoding step. |
+| 5 | **a** | The prefix that's worth caching is one that repeats across requests — system prompts in chat/RAG/agent workloads are the canonical fit. |
+| 6 | **d** | `mode="reduce-overhead"` enables CUDA graph capture so launch overhead amortizes across replays. |
+| 7 | **a** | Memorize: batch × seq × layers × heads × head_dim × 2 (K + V) × precision_bytes. Drives capacity planning. |
+| 8 | **d** | Triton (OpenAI) is a Python-style DSL that compiles to PTX; underpins FlashAttention v2 + much of vLLM's custom kernel code. |
+| 9 | **d** | Optimizations stack roughly multiplicatively (not perfectly). Published vLLM benchmarks routinely show 20-30× over HF transformers baselines. |
+| 10 | **a** | vLLM defaults capture ~80% of the wins. Hand-rolling kernels before measuring is premature optimization. |
