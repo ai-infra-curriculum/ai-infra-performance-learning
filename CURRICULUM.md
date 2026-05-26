@@ -22,7 +22,7 @@ Before starting, you should be able to:
 - [ ] Debug performance issues with basic profiling tools
 - [ ] Use Linux command line proficiently
 
-**Self-Assessment Quiz**: Take the [prerequisite quiz](assessments/prerequisite-quiz.md) to verify readiness.
+**Self-Assessment**: If you can confidently check the boxes above, you're ready. Otherwise, work through [ai-infra-engineer-learning](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) first.
 
 ## Detailed Module Breakdown
 
@@ -387,7 +387,7 @@ Build complete custom CUDA kernel suite for transformers:
 - Fused kernels: 3.5x speedup
 - 80%+ memory bandwidth utilization
 
-[Full Project Specification →](projects/project-02-gpu-optimization/README.md)
+_Full project spec — planned (see module 08 for the underlying techniques)._
 
 ### Assessment
 
@@ -484,7 +484,7 @@ Build production-ready compression pipeline:
 - 75% model size reduction
 - <2% accuracy degradation
 
-[Full Project Specification →](projects/project-01-model-optimization/README.md)
+_Full project spec — planned (see modules 03-05 for the underlying techniques)._
 
 ### Assessment
 
@@ -653,7 +653,7 @@ Build production LLM serving system:
 - 85%+ GPU utilization
 - 70% memory savings
 
-[Full Project Specification →](projects/project-03-distributed-inference/README.md)
+_Full project spec — planned (see modules 06-07 for distributed inference + deployment techniques)._
 
 ### Assessment
 
@@ -960,4 +960,4 @@ After completing this course:
 
 **Ready to begin your journey?**
 
-Start with [Module 1: GPU Fundamentals →](lessons/01-gpu-fundamentals/README.md)
+Start with [Module 001: GPU Fundamentals →](modules/mod-001-gpu-fundamentals/)
