@@ -486,10 +486,9 @@ Three major practical exams aligned with projects:
 
 ### Getting Help
 
-- **Discussion Forum**: [GitHub Discussions](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/discussions)
-- **Office Hours**: Weekly live Q&A sessions (schedule TBD)
-- **Slack Community**: Join #ai-performance-engineering channel
-- **Email Support**: performance-help@ai-infra-curriculum.com
+- **Discussion Forum**: [GitHub Discussions](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/discussions) — the supported community surface today.
+- **Issues**: File [an issue](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/issues) for content corrections or runtime-validation problems.
+- **Dedicated chat / office hours**: Not currently scheduled — coordinate via Discussions if you'd like to organize one with other learners.
 
 ### Contributing
 

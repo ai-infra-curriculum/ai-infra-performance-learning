@@ -328,10 +328,13 @@ derivation of its peak numbers.
 
 ## What changed in Blackwell (preview)
 
-Blackwell (CC 10.0, B100/B200) launched in 2024. The numbers are
-fluid as of 2026-05; I'll quote conservative public figures.
-
-<!-- needs-research: confirm Blackwell B200 FP8/FP4 dense TFLOPS and HBM3e bandwidth numbers from NVIDIA's final datasheets before quoting in lecture. Drafts circulating online vary by 10-20%. -->
+Blackwell (CC 10.0, B100/B200) launched in 2024. Per-die throughput
+figures from early decks were revised more than once before NVIDIA
+published its final datasheets; this lecture deliberately stays
+qualitative rather than quoting a single TFLOPS number that could
+go stale. For procurement-grade numbers, always cross-check the
+current [NVIDIA Blackwell datasheet](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/)
+and your vendor's quote.
 
 What's structurally new:
 
