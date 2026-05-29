@@ -33,6 +33,9 @@
   "MD036": false,  // emphasis-as-heading (intentional in many docs)
   "MD037": false,  // no-space-in-emphasis
   "MD038": false,  // no-space-in-code (cosmetic in code spans)
+  "MD004": false,  // ul-style (dash vs plus vs asterisk; cosmetic)
+  "MD055": false,  // table-pipe-style (cosmetic)
+  "MD056": false,  // table-column-count (often broken by generated rows)
   "MD040": false,  // fenced-code-language (plain output blocks)
   "MD041": false,  // first-line-h1
   "MD046": false,  // code-block-style (fenced vs indented)
