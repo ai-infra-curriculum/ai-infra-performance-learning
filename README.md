@@ -597,3 +597,9 @@ are scheduled.)*
 > The longer-form curriculum spec (8 modules + 3 projects) lives in
 > [`CURRICULUM.md`](CURRICULUM.md). Modules will be promoted from
 > spec to implementation incrementally.
+
+
+---
+
+<!-- aicg:maintained-by -->
+Maintained by [VeriSwarm.ai](https://veriswarm.ai)
