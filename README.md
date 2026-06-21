@@ -1,5 +1,9 @@
 # AI/ML Performance Engineer - Learning Repository
 
+<!-- aicg:site-banner -->
+> 🎓 Part of the **[AI Infrastructure Curriculum](https://ai-infra-curriculum.github.io/)** — a free, open-source ladder of role-based AI-infrastructure programs. [Explore the ladder](https://ai-infra-curriculum.github.io/) · [Join the first live cohort](https://ai-infra-curriculum.github.io/junior.html)
+<!-- /aicg:site-banner -->
+
 > **Specialized Track**: Performance Engineering & Optimization for AI/ML Systems
 >
 > Master GPU optimization, CUDA programming, model compression, and high-performance inference systems for production AI/ML workloads.
@@ -597,7 +601,6 @@ are scheduled.)*
 > The longer-form curriculum spec (8 modules + 3 projects) lives in
 > [`CURRICULUM.md`](CURRICULUM.md). Modules will be promoted from
 > spec to implementation incrementally.
-
 
 ---
 
