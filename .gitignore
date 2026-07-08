@@ -29,3 +29,4 @@ roofline.png
 
 # Scratch (used by night-runner when filesystem disallows unlink)
 .scratch-trash/
+.aicg/
