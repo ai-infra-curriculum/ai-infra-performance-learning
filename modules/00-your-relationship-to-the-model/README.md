@@ -46,7 +46,7 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 ## Your ladder
 
 - **Before this role:** [AI/ML Platform Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-ml-platform-learning), [MLOps Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-mlops-learning), [Senior AI Infrastructure Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-senior-engineer-learning)
-- **Alongside it (same level):** [AI Inference Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-inference-engineer-learning)
+- **Alongside it (same level):** [AI Inference Engineer](https://github.com/AI-Infra-Curriculum/ai-infra-inference-engineer-learning), [AI Reliability Engineer (AI SRE)](https://github.com/AI-Infra-Curriculum/ai-infra-sre-learning)
 - **After this role:** [AI Infrastructure Team Lead](https://github.com/AI-Infra-Curriculum/ai-infra-team-lead-learning)
 
 ## Scenario: One model upgrade, five orgs
