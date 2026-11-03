@@ -1,5 +1,9 @@
 # AI/ML Performance Engineer - Comprehensive Curriculum
 
+<!-- aicg:orientation:start -->
+> **Start here:** [Module 00: Your Relationship to the Model](modules/00-your-relationship-to-the-model/README.md). Where this role sits relative to the model, what it owns, and who it works with across the five curricula.
+<!-- aicg:orientation:end -->
+
 ## Course Overview
 
 This curriculum transforms experienced AI infrastructure engineers into specialized **AI/ML Performance Engineers** through hands-on projects, advanced GPU programming, and production optimization techniques.
